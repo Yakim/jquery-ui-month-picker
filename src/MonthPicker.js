@@ -528,6 +528,7 @@ along with this program.  If not, see
 
         Clear: function () {
             this.element.val('');
+            this._updateAlt(0, '');
             this._validationMessage.hide();
         },
 
